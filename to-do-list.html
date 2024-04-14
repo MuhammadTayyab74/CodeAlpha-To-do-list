@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link type="image/png" sizes="16x16" rel="icon" href="https://img.icons8.com/bubbles/50/apple-calculator.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2 style="text-align: center;">To-Do List</h2>
+    <center><h5>Designed By<span style="font-style: italic; color: limegreen;"> Muhammad Tayyab</span></h5></center>
+    <input type="text" id="taskInput" placeholder="Add new task">
+    <button id="addTaskBtn"><i class="fas fa-plus"></i> Add</button>
+    <button id="selectAllBtn" class="select-all-btn"><i class="fas fa-check-double"></i> Select All</button>
+    <button id="deleteBtn" class="delete-btn"><i class="fas fa-trash"></i> Delete Selected</button>
+    <div id="taskList"></div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
